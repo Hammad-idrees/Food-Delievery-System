@@ -1,0 +1,59 @@
+/* src/styles/header.css */
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  /* Spacing between header and form */
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  animation: slideIn 1s ease-out forwards;
+}
+
+.logo-icon {
+  font-size: 2rem;
+  color: #fff;
+  animation: bounceIn 1s ease-out forwards;
+}
+
+/* Animation for the App Name */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation for the icon */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0);
+  }
+
+  60% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

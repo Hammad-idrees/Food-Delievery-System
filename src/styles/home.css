@@ -1,0 +1,101 @@
+/* src/styles/home.css */
+
+/* Main container */
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Header Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.foodrush {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2575fc;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  /* Adjust width to control the space */
+}
+
+/* Info Section: Text and Image */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.black-text {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.yellow-text {
+  color: yellow;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.food-image {
+  width: 50%;
+}
+
+.food-image-img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Food Items Section */
+.food-order-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.food-order-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.food-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.food-item {
+  text-align: center;
+  width: 150px;
+}
+
+.food-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.food-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
